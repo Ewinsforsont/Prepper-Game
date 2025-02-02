@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 1123670758}
   - component: {fileID: 1123670757}
   m_Layer: 0
-  m_Name: nteractable Cube Test (Water)
+  m_Name: Interactable Cube Test (Water)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

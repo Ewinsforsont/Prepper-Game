@@ -20,6 +20,11 @@ public class S_ScoreManager : MonoBehaviour
 
 
     #endregion
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     void Start()
     {
         for (int i = 0; i < resourceLenght; i++)
