@@ -15,9 +15,8 @@ public class S_ScoreManager : MonoBehaviour
 {
 
     #region Variables
-    [SerializeField, Tooltip("")] private S_Resource resourcePrefab;
-    [SerializeField, Tooltip("A List of the resources and the assosiated values")] private S_Resource[] resource = new Resource[System.Enum.GetValues(typeof(S_Resource.Supplies)).Length];
-    private int resourceLenght = System.Enum.GetValues(typeof(S_Resource.Supplies)).Length;
+    [SerializeField, Tooltip("A List of the resources and the assosiated values")] private S_Resource[] resource = new S_Resource[System.Enum.GetValues(typeof(S_Resource.Supplies)).Length];
+    private static int resourceLenght = System.Enum.GetValues(typeof(S_Resource.Supplies)).Length;
 
 
     #endregion
@@ -39,5 +38,6 @@ public class S_ScoreManager : MonoBehaviour
     public void ChangeScore(S_Resource.Supplies supplies, int changeAmmount)
     {
         resource[((int)supplies)].ammount += changeAmmount;
+        Debug.Log("Changed Resources by:" + changeAmmount);
     }
 }
