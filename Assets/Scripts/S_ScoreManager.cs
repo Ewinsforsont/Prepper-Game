@@ -26,16 +26,21 @@ public class S_ScoreManager : MonoBehaviour
     }
     void Start()
     {
-        for (int i = 0; i < resourceLenght; i++)
-        {
-            Resource[i].type = (S_Resource.Supplies)i;
-            Resource[i].ammount = 0;
-        }
+        ResetResources();
     }
 
     public void ChangeScore(S_Resource.Supplies supplies, int changeAmmount)
     {
         Resource[((int)supplies)].ammount += changeAmmount;
         Debug.Log("Changed Resources by:" + changeAmmount);
+    }
+
+    public void ResetResources()
+    {
+        for (int i = 0; i < resourceLenght; i++)
+        {
+            Resource[i].type = (S_Resource.Supplies)i;
+            Resource[i].ammount = 0;
+        }
     }
 }
