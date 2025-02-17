@@ -19,8 +19,8 @@ public class S_StatDisplayManager : MonoBehaviour
     void Start()
     {
         scoreManager = FindAnyObjectByType<S_ScoreManager>();
-        if (scoreManager != null)
-            SetStatDisplay();
+        /*if (scoreManager != null)
+            SetStatDisplay();*/
     }
 
     public void SetStatDisplay()
