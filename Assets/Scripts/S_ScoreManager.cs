@@ -17,8 +17,7 @@ public class S_ScoreManager : MonoBehaviour
     #region Variables
     [SerializeField, Tooltip("A List of the resources and the assosiated values")] private S_Resource[] resource = new S_Resource[System.Enum.GetValues(typeof(S_Resource.Supplies)).Length];
     private static int resourceLenght = System.Enum.GetValues(typeof(S_Resource.Supplies)).Length;
-
-
+    public S_Resource[] Resource { get => resource;}
     #endregion
 
     void Awake()
@@ -29,20 +28,14 @@ public class S_ScoreManager : MonoBehaviour
     {
         for (int i = 0; i < resourceLenght; i++)
         {
-            resource[i].type = (S_Resource.Supplies)i;
-            resource[i].ammount = 0;
+            Resource[i].type = (S_Resource.Supplies)i;
+            Resource[i].ammount = 0;
         }
-    }
-
-
-    void Update()
-    {
-
     }
 
     public void ChangeScore(S_Resource.Supplies supplies, int changeAmmount)
     {
-        resource[((int)supplies)].ammount += changeAmmount;
+        Resource[((int)supplies)].ammount += changeAmmount;
         Debug.Log("Changed Resources by:" + changeAmmount);
     }
 }
