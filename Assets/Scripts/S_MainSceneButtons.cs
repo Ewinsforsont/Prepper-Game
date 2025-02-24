@@ -15,6 +15,6 @@ public class S_MainSceneButtons : MonoBehaviour
     
     public void ChangeScene()
     {
-        sceneManager.EndScene();
+
     }
 }

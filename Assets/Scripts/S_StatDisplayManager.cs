@@ -19,6 +19,10 @@ public class S_StatDisplayManager : MonoBehaviour
     void Start()
     {
         scoreManager = FindAnyObjectByType<S_ScoreManager>();
+        if (scoreManager != null)
+            SetStatDisplay();
+        else
+            Debug.LogWarning("No scoreManager");
         /*if (scoreManager != null)
             SetStatDisplay();*/
     }
@@ -61,7 +65,7 @@ public class S_StatDisplayManager : MonoBehaviour
                         Debug.LogWarning("Misc text is null");
                     break;
                 default:
-                    Debug.Log("S_StatDisplayManager: Did not set any text");
+                    Debug.LogError("S_StatDisplayManager: Did not set any text");
                     break;
             }
         }

@@ -2206,8 +2206,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2115845567}
-        m_TargetAssemblyTypeName: S_MainSceneButtons, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_TargetAssemblyTypeName: S_SceneManager, Assembly-CSharp
+        m_MethodName: StartingScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3107,9 +3107,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2115845565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8f76a58e683a314b944df77b2240b02, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d8ea7ad9d99b7b4a839a662b54dc326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingScene: Starting
+  mainScene: Main
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

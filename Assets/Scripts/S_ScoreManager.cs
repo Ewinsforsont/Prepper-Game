@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /*[System.Serializable]
 public class Resource
@@ -18,6 +19,7 @@ public class S_ScoreManager : MonoBehaviour
     [SerializeField, Tooltip("A List of the resources and the assosiated values")] private S_Resource[] resource = new S_Resource[System.Enum.GetValues(typeof(S_Resource.Supplies)).Length];
     private static int resourceLenght = System.Enum.GetValues(typeof(S_Resource.Supplies)).Length;
     public S_Resource[] Resource { get => resource;}
+    private S_StatDisplayManager statDisplayManager;
     #endregion
 
     void Awake()
@@ -26,6 +28,7 @@ public class S_ScoreManager : MonoBehaviour
     }
     void Start()
     {
+        //SceneManager.activeSceneChanged += ChangedActiveScene;
         ResetResources();
     }
 
@@ -43,4 +46,20 @@ public class S_ScoreManager : MonoBehaviour
             Resource[i].ammount = 0;
         }
     }
+
+    //private void ChangedActiveScene(Scene current, Scene next)
+    //{
+    //    if (current.name == "Starting" && next == null)
+    //    {
+    //        statDisplayManager = FindAnyObjectByType<S_StatDisplayManager>();
+    //        statDisplayManager.SetStatDisplay();
+    //    }
+    //    else if (current.name == "Main" && next == null)
+    //    {
+    //        ResetResources();
+    //        Debug.Log("Reseted Resources");
+    //    }
+    //    else
+    //        Debug.LogError("Did not register scene change\n current scene: " + current + " next scene: " + next);
+    //}
 }
