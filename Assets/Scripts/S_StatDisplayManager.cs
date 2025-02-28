@@ -15,6 +15,8 @@ public class S_StatDisplayManager : MonoBehaviour
     private S_ScoreManager scoreManager;
     private S_Resource[] resources;
 
+    [SerializeField] private bool UpdateStatDisplay = false;
+
     #endregion
     void Start()
     {
@@ -27,8 +29,16 @@ public class S_StatDisplayManager : MonoBehaviour
             SetStatDisplay();*/
     }
 
+    void Update()
+    {
+        if (UpdateStatDisplay)
+            SetStatDisplay();
+    }
+
     public void SetStatDisplay()
     {
+        if (scoreManager == null)
+            scoreManager = FindAnyObjectByType<S_ScoreManager>();
         resources = scoreManager.Resource;
         for (int i = 0; i < resources.Length; i++)
         {
@@ -69,5 +79,6 @@ public class S_StatDisplayManager : MonoBehaviour
                     break;
             }
         }
+        UpdateStatDisplay = false;
     }
 }
