@@ -10,10 +10,24 @@ public class S_SceneManager : MonoBehaviour
     [SerializeField, Tooltip("The name of the starting scene")] private string startingScene;
     [SerializeField, Tooltip("The name of the main scene")] private string mainScene;
 
+    [Header("Debug")]
+    [SerializeField] private bool loadMainScene = false;
+    [SerializeField] private bool loadStartingScene = false;
+
     private S_ScoreManager scoreManager;
     #endregion
-    private void Start()
+    private void Update()
     {
+        if (loadMainScene)
+        {
+            loadMainScene = false;
+            MainScene();
+        }
+        if (loadStartingScene)
+        {
+            loadStartingScene = false;
+            StartingScene();
+        }
 
     }
     public void StartingScene()
