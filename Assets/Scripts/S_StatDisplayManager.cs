@@ -35,6 +35,9 @@ public class S_StatDisplayManager : MonoBehaviour
             SetStatDisplay();
     }
 
+    /// <summary>
+    /// Set the text of the specified Text Fields to the numbers stored in the scoreManager
+    /// </summary>
     public void SetStatDisplay()
     {
         if (scoreManager == null)
