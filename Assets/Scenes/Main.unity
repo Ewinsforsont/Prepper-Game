@@ -1377,8 +1377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resource:
     type: 2
-    itemType: 0
     ammount: 1
+  item: 15
 --- !u!65 &718604942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2655,8 +2655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resource:
     type: 3
-    itemType: 0
     ammount: 1
+  item: 13
 --- !u!65 &1627333296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3550,8 +3550,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resource:
     type: 1
-    itemType: 0
     ammount: 1
+  item: 0
 --- !u!1 &2073886639
 GameObject:
   m_ObjectHideFlags: 0
@@ -3601,8 +3601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resource:
     type: 0
-    itemType: 0
     ammount: 1
+  item: 26
 --- !u!65 &2073886642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3729,6 +3729,7 @@ SceneRoots:
   - {fileID: 200517794}
   - {fileID: 1421496238}
   - {fileID: 1744449348}
+  - {fileID: 2115845566}
   - {fileID: 61226552}
   - {fileID: 260911766}
   - {fileID: 1478963606}
@@ -3737,4 +3738,3 @@ SceneRoots:
   - {fileID: 307459987}
   - {fileID: 544359088}
   - {fileID: 397251125}
-  - {fileID: 2115845566}

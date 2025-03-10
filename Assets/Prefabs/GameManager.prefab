@@ -55,3 +55,36 @@ MonoBehaviour:
     ammount: 0
   - type: 0
     ammount: 0
+  items:
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  - itemType: 0
+  resetResources: 0

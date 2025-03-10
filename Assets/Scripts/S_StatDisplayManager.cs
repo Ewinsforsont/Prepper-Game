@@ -6,16 +6,21 @@ using UnityEngine;
 public class S_StatDisplayManager : MonoBehaviour
 {
     #region Variables
+    [Header ("Text fields")]
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text foodText;
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text waterText;
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text heatText;
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text toiletriesText;
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text miscText;
+    [SerializeField, Tooltip("The textfield that displayes the items collected in the main scene")] private TMP_Text itemText;
 
     private S_ScoreManager scoreManager;
     private S_Resource[] resources;
-
-    [SerializeField] private bool UpdateStatDisplay = false;
+    [Header("Options")]
+    [SerializeField, Tooltip("If enabled items that were not collected will not show up on display")] private bool hideEmptyItems;
+    [Header ("Debug")]
+    [SerializeField] private bool updateStatDisplay = false;
+    [SerializeField] private bool printText = false;
 
     #endregion
     void Start()
@@ -31,7 +36,7 @@ public class S_StatDisplayManager : MonoBehaviour
 
     void Update()
     {
-        if (UpdateStatDisplay)
+        if (updateStatDisplay)
             SetStatDisplay();
     }
 
@@ -82,6 +87,25 @@ public class S_StatDisplayManager : MonoBehaviour
                     break;
             }
         }
-        UpdateStatDisplay = false;
+        string text = "";
+        for (int i = 0; i < scoreManager.Items.Length; i++)
+        {
+            if (!hideEmptyItems && scoreManager.Items[i].ammount == 0)
+            {
+                text += scoreManager.Items[i].ammount;
+                text += " ";
+                text += scoreManager.Items[i].itemType;
+                text += ", ";
+                if (printText)
+                    Debug.Log(scoreManager.Items[i].ammount);
+            }
+        }
+        if (itemText != null)
+            itemText.text = text;
+        else
+            Debug.LogWarning("Item Text is null");
+        if (printText)
+            Debug.Log(text);
+        updateStatDisplay = false;
     }
 }

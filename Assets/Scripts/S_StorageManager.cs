@@ -27,7 +27,7 @@ public class S_StorageManager : MonoBehaviour
         Debug.Log("Trigger Entered");
         if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) && storedItem == 0)
         {
-            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount);
+            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount, resourceManager.item);
             storedItem = other.gameObject.GetInstanceID();
         }
         else
@@ -37,7 +37,7 @@ public class S_StorageManager : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) && other.gameObject.GetInstanceID() == storedItem)
         {
-            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount * -1);
+            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount * -1, resourceManager.item);
             storedItem = 0;
         }
     }
