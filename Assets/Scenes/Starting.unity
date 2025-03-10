@@ -1255,12 +1255,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum odor amet, consectetuer adipiscing elit. Arcu viverra vitae
-    efficitur luctus ad feugiat porta egestas habitasse risus neque ut morbi varius
-    vitae himenaeos tristique nulla convallis porta tellus ac interdum efficitur
-    viverra magnis cursus lectus varius hac nullam primis volutpat maximus orci vivamus.
-
-'
+  m_text: "0 hinkar, 0 flaskor, 0 dunkar, 0 ljus, 0 t\xE4ndstickor, 0 brast\xE4ndare,
+    0 filtar, 0 jackor, 0 halsdukar, 0 vantar, 0 m\xF6ssor, 0 konservburkar, 0 kn\xE4ckebr\xF6d,
+    0 p\xE5sar n\xF6tter, 0 kartonger v\xE4lling, 0 rullar toalettpapper, 0 rullar
+    hush\xE5llspapper, 0 plastp\xE5sar, 0 bl\xF6jor, 0 handsprit, 0 f\xF6rsta hj\xE4lpen
+    kit, 0 konserv\xF6ppnare, 0 stormk\xF6k, 0 pennor, 0 skrivblock, 0 ryggs\xE4ckar,
+    0 ID papper, 0 radior, 0 mobiler, 0 kartor, 0 ficklampor"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1287,8 +1287,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.125
+  m_fontSizeBase: 0.125
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1839,7 +1839,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.195}
+  m_AnchoredPosition: {x: 0.973, y: 1.195}
   m_SizeDelta: {x: 2.24, y: 1.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &876913103
@@ -3249,7 +3249,7 @@ GameObject:
   - component: {fileID: 1809753012}
   - component: {fileID: 1809753011}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Item Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3568,7 +3568,9 @@ MonoBehaviour:
   toiletriesText: {fileID: 542826443}
   miscText: {fileID: 1998846745}
   itemText: {fileID: 515749893}
-  UpdateStatDisplay: 0
+  hideEmptyItems: 0
+  updateStatDisplay: 0
+  printText: 0
 --- !u!114 &1917343549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3766,7 +3768,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968216604}
-  - component: {fileID: 1968216605}
   m_Layer: 5
   m_Name: Player Stats
   m_TagString: Untagged
@@ -3804,25 +3805,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.34749997, y: -0.183}
   m_SizeDelta: {x: 2.695, y: 1.8440001}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1968216605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968216603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81dddbf923fe02f42a5188d505c101fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foodText: {fileID: 143424949}
-  waterText: {fileID: 0}
-  heatText: {fileID: 576074727}
-  toiletriesText: {fileID: 542826443}
-  miscText: {fileID: 0}
-  itemText: {fileID: 0}
-  UpdateStatDisplay: 0
 --- !u!1 &1998846743
 GameObject:
   m_ObjectHideFlags: 0

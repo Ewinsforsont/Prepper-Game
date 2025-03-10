@@ -9,8 +9,8 @@ public class S_Item
     public enum Items
     {
         hink, flaska, dunk, ljus, tändsticka, braständare, filt, jacka,
-        halsduk, vantar, mössa, konservburk, knäckebröd, nötter, välling, toapapper,
-        hushållspapper, plastpåsar, blöjor, handsprit, första_hjälpen, konservöppnare, stormkök,
+        halsduk, vante, mössa, konservburk, knäckebröd, nötter, välling, toalettpapper,
+        hushållspapper, plastpåse, blöja, handsprit, första_hjälpen, konservöppnare, stormkök,
         penna, skrivblock, ryggsäck, ID, radio, mobil, karta, ficklampa
     }
     public Items itemType;
