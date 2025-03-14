@@ -12,9 +12,4 @@ public class S_MainSceneButtons : MonoBehaviour
     {
         sceneManager = FindAnyObjectByType<S_SceneManager>();
     }
-    
-    public void ChangeScene()
-    {
-
-    }
 }

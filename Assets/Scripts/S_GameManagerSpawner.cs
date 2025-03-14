@@ -14,9 +14,4 @@ public class S_GameManagerSpawner : MonoBehaviour
             if (manager == null)
                 Instantiate(gameManager);
     }
-
-    void Update()
-    {
-        
-    }
 }

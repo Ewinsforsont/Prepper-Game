@@ -115,6 +115,11 @@ public class S_StatDisplayManager : MonoBehaviour
         updateStatDisplay = false;
     }
 
+    /// <summary>
+    /// changes the names to singular or plural depending on how many items is in the item list
+    /// </summary>
+    /// <param name="items"></param>
+    /// <returns></returns>
     private string[] SetItemText(S_Item[] items)
     {
         string[] names = new string[System.Enum.GetValues(typeof(S_Item.Items)).Length];

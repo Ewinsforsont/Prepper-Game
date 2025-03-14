@@ -10,7 +10,7 @@ public class S_StorageManager : MonoBehaviour
 {
     #region Variables
     [SerializeField, Tooltip("This is a refrence to the Gamemanager that will keep track of the score")] private S_ScoreManager scoreManager;
-    private S_ResourceManager resourceManager;
+    private S_ResourceManager resourceManager; // the resource manager
     [Tooltip("What gameobject is currently stored")] private int storedItem = 0;
     #endregion
 
