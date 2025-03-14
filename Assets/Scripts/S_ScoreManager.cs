@@ -46,6 +46,9 @@ public class S_ScoreManager : MonoBehaviour
         Debug.Log("Changed Resources by:" + changeAmmount);
     }
 
+    /// <summary>
+    /// Resets the resources to zero
+    /// </summary>
     public void ResetResources()
     {
         for (int i = 0; i < resourceLenght; i++)

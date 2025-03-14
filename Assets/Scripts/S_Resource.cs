@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class S_Resource
 {
-    public enum Supplies { water, food, heat, toilet, misc }
+    public enum Supplies { water, food, heat, toilet, misc } //Stuff
     public Supplies type;
     public int ammount;
 }

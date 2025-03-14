@@ -30,7 +30,7 @@ public class S_SceneManager : MonoBehaviour
         }
 
     }
-    public void StartingScene()
+    public void StartingScene() // opens the starting scene
     {
         SceneManager.LoadScene(startingScene);
     }

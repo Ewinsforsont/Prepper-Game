@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable]
 public class S_Item
 {
-    public enum Items
+    public enum Items // all the items
     {
         hink, flaska, dunk, ljus, tändsticka, braständare, filt, jacka,
         halsduk, vante, mössa, konservburk, knäckebröd, nötter, välling, toalettpapper,
