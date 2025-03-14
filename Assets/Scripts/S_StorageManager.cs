@@ -14,20 +14,12 @@ public class S_StorageManager : MonoBehaviour
     [Tooltip("What gameobject is currently stored")] private int storedItem = 0;
     #endregion
 
-    private void Start()
-    {
-        if (scoreManager == null)
-        {
-            scoreManager = FindAnyObjectByType<S_ScoreManager>();
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger Entered");
         if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) && storedItem == 0)
         {
-            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount, resourceManager.item);
+            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount);
             storedItem = other.gameObject.GetInstanceID();
         }
         else
@@ -37,7 +29,7 @@ public class S_StorageManager : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) && other.gameObject.GetInstanceID() == storedItem)
         {
-            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount * -1, resourceManager.item);
+            scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount * -1);
             storedItem = 0;
         }
     }
