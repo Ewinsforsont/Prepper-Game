@@ -3568,7 +3568,7 @@ MonoBehaviour:
   toiletriesText: {fileID: 542826443}
   miscText: {fileID: 1998846745}
   itemText: {fileID: 515749893}
-  hideEmptyItems: 0
+  hideEmptyItems: 1
   updateStatDisplay: 0
   printText: 0
 --- !u!114 &1917343549
