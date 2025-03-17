@@ -23,6 +23,7 @@ public class S_ScoreManager : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
+        Debug.Log(0.2f + 0.1f);
     }
     void Start()
     {
