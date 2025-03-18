@@ -261,9 +261,15 @@ public class S_StatDisplayManager : MonoBehaviour
                     break;
                 case S_Item.Items.ficklampa:
                     if (items[i].ammount > 1 || items[i].ammount == 0)
-                        names[i] = " ficklampor";
+                        names[i] = " ficklampor, ";
                     else
-                        names[i] = " ficklampa";
+                        names[i] = " ficklampa, ";
+                    break;
+                case S_Item.Items.nalleBjörn:
+                    if (items[i].ammount > 1 || items[i].ammount == 0)
+                        names[i] = " teddybjörnar";
+                    else
+                        names[i] = " teddybjörn";
                     break;
                 default:
                     names[i] = " " + items[i].itemType + ", ";

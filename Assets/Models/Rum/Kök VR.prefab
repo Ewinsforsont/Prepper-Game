@@ -5352,7 +5352,7 @@ MonoBehaviour:
   _targetTransform: {fileID: 6366370208332307481}
   _maxGrabPoints: -1
   _rigidbody: {fileID: 9193447010527721824}
-  _kinematicWhileSelected: 1
+  _kinematicWhileSelected: 0
   _throwWhenUnselected: 1
 --- !u!114 &973965568409350054
 MonoBehaviour:
@@ -5433,7 +5433,7 @@ MonoBehaviour:
   _positionConstraints:
     ConstraintsAreRelative: 1
     XAxis:
-      ConstrainAxis: 1
+      ConstrainAxis: 0
       AxisRange:
         Min: 0
         Max: 0
@@ -5443,7 +5443,7 @@ MonoBehaviour:
         Min: 0
         Max: 0
     ZAxis:
-      ConstrainAxis: 1
+      ConstrainAxis: 0
       AxisRange:
         Min: 0
         Max: 0
@@ -11197,6 +11197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8080153190787950635}
   - component: {fileID: 9193447010527721824}
+  - component: {fileID: 108826163188028235}
   m_Layer: 0
   m_Name: "sk\xE5pd\xF6rr5"
   m_TagString: Untagged
@@ -11249,6 +11250,45 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!59 &108826163188028235
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344189250760921215}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_Anchor: {x: -0.003, y: 0, z: 0.0001}
+  m_Axis: {x: 1, y: 90, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 1
+  m_ExtendedLimits: 0
+  m_UseAcceleration: 0
+  m_Limits:
+    min: 0
+    max: 90
+    bounciness: 0
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &1363699237659255397
 GameObject:
   m_ObjectHideFlags: 0
