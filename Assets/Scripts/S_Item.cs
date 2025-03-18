@@ -11,7 +11,7 @@ public class S_Item
         hink, flaska, dunk, ljus, tändsticka, braständare, filt, jacka,
         halsduk, vante, mössa, konservburk, knäckebröd, nötter, välling, toalettpapper,
         hushållspapper, plastpåse, blöja, handsprit, första_hjälpen, konservöppnare, stormkök,
-        penna, skrivblock, ryggsäck, ID, radio, mobil, karta, ficklampa
+        penna, skrivblock, ryggsäck, ID, radio, mobil, karta, ficklampa, nalleBjörn
     }
     public Items itemType;
     public int ammount;
