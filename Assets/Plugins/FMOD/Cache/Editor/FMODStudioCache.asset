@@ -1,0 +1,1129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8715315798167320393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/FlashlightDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/FlashlightDrop
+  Guid:
+    Data1: 1776485319
+    Data2: 1147273636
+    Data3: 232883330
+    Data4: -247777767
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7992546840550774115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/BinderDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/BinderDrop
+  Guid:
+    Data1: -1126842658
+    Data2: 1313115374
+    Data3: 457615776
+    Data4: 763062833
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7316885926403745959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/RadioDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/RadioDrop
+  Guid:
+    Data1: 1386826730
+    Data2: 1191410988
+    Data3: 1337051779
+    Data4: -1202801120
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6981614755972486816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/BucketDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/BucketDrop
+  Guid:
+    Data1: -1740179063
+    Data2: 1146597405
+    Data3: -1002096977
+    Data4: -106394106
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6382438090611391521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/CanPickup 2
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/CanPickup 2
+  Guid:
+    Data1: 516279422
+    Data2: 1103457143
+    Data3: -330987340
+    Data4: -459476118
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5909224529428583558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/CanDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/CanDrop
+  Guid:
+    Data1: 744219084
+    Data2: 1097786837
+    Data3: 992144825
+    Data4: 859899951
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5861152253552389596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/WasteBagPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/WasteBagPickup
+  Guid:
+    Data1: 991486195
+    Data2: 1136637341
+    Data3: 1215801472
+    Data4: -110854765
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5685709780186541333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/BucketPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/BucketPickup
+  Guid:
+    Data1: 243581481
+    Data2: 1339805053
+    Data3: 2128449432
+    Data4: 375447199
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5626585399778746818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/WaterBottleDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/WaterBottleDrop
+  Guid:
+    Data1: -199508832
+    Data2: 1134188162
+    Data3: -1307460222
+    Data4: -367300867
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5386055998695996864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/PaperDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/PaperDrop
+  Guid:
+    Data1: -1224736012
+    Data2: 1191340753
+    Data3: -1659001929
+    Data4: 1351081151
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4584076863947192757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/RadioPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/RadioPickup
+  Guid:
+    Data1: 2128868005
+    Data2: 1304699622
+    Data3: 1067560890
+    Data4: 202553274
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3508029649637911215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/CabinetOpen
+  m_EditorClassIdentifier: 
+  Path: event:/FX/CabinetOpen
+  Guid:
+    Data1: -127389819
+    Data2: 1143970238
+    Data3: -146655068
+    Data4: -1388779766
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3194517139374352613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/PaperPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/PaperPickup
+  Guid:
+    Data1: 809333186
+    Data2: 1252675724
+    Data3: -708458333
+    Data4: 1274564026
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2717401819066107920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Roomtone
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Roomtone
+  Guid:
+    Data1: -450323604
+    Data2: 1286629661
+    Data3: 970497704
+    Data4: 1725739855
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1324168
+--- !u!114 &-2539182655533895674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/CanDrop 2
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/CanDrop 2
+  Guid:
+    Data1: -2083183208
+    Data2: 1324738287
+    Data3: 2124305061
+    Data4: -1594980319
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.5
+  MaxDistance: 2
+  Length: 0
+--- !u!114 &-2346033696180076435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/TeddyDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/TeddyDrop
+  Guid:
+    Data1: 1519858659
+    Data2: 1130020965
+    Data3: 1803891388
+    Data4: 1463539899
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2335704115964967553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/WastBagDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/WastBagDrop
+  Guid:
+    Data1: 594085246
+    Data2: 1339342314
+    Data3: -1332836218
+    Data4: 585978430
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1530238359578302059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/WaterBottlePickupFr
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/WaterBottlePickupFr
+  Guid:
+    Data1: 1687523346
+    Data2: 1175132150
+    Data3: -1302998365
+    Data4: -61395479
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1640
+--- !u!114 &-676002959159989458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/JacketDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/JacketDrop
+  Guid:
+    Data1: 2141147211
+    Data2: 1152270621
+    Data3: -403103356
+    Data4: 981152170
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-587809853488525044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PassiveObjects/Fridge
+  m_EditorClassIdentifier: 
+  Path: event:/PassiveObjects/Fridge
+  Guid:
+    Data1: -1882952994
+    Data2: 1142292327
+    Data3: 1664909192
+    Data4: 2075648599
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11912
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 815813851935641334}
+  - {fileID: 400101203596815037}
+  EditorEvents:
+  - {fileID: -3508029649637911215}
+  - {fileID: 1486224512627148843}
+  - {fileID: 6060306976000507609}
+  - {fileID: 2835213155485496966}
+  - {fileID: 156767717136786755}
+  - {fileID: 1335865101140768547}
+  - {fileID: -1530238359578302059}
+  - {fileID: 7140785440729067354}
+  - {fileID: 1239729005107424334}
+  - {fileID: 6739018334670227921}
+  - {fileID: -5685709780186541333}
+  - {fileID: 4837280219639593674}
+  - {fileID: 4197003392104304897}
+  - {fileID: 630476707996570103}
+  - {fileID: -676002959159989458}
+  - {fileID: 565353207770456215}
+  - {fileID: -2717401819066107920}
+  - {fileID: 2535266254913242888}
+  - {fileID: -2335704115964967553}
+  - {fileID: -6981614755972486816}
+  - {fileID: -5626585399778746818}
+  - {fileID: -4584076863947192757}
+  - {fileID: 4878055551423207922}
+  - {fileID: -3194517139374352613}
+  - {fileID: -8715315798167320393}
+  - {fileID: -5909224529428583558}
+  - {fileID: -587809853488525044}
+  - {fileID: -7992546840550774115}
+  - {fileID: 886403568572075083}
+  - {fileID: -2346033696180076435}
+  - {fileID: 3983195939842861431}
+  - {fileID: -7316885926403745959}
+  - {fileID: -5861152253552389596}
+  - {fileID: -5386055998695996864}
+  - {fileID: 3533836575921491276}
+  - {fileID: -6382438090611391521}
+  - {fileID: 5585151334389777151}
+  - {fileID: -2539182655533895674}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 400101203596815037}
+  StringsBanks:
+  - {fileID: 815813851935641334}
+  cacheTime: 638779942718774251
+  cacheVersion: 131623
+--- !u!114 &156767717136786755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MenuMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MenuMusic
+  Guid:
+    Data1: 582101991
+    Data2: 1248536292
+    Data3: -884858480
+    Data4: 1934561305
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 133000
+--- !u!114 &400101203596815037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Desktop/preppergame/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638779942718712732
+  FileSizes:
+  - Name: Desktop
+    Value: 30851648
+  Exists: 1
+--- !u!114 &565353207770456215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/Phonedrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/Phonedrop
+  Guid:
+    Data1: -410613419
+    Data2: 1329146817
+    Data3: 601421214
+    Data4: -1107154978
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &630476707996570103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/FirstAidKitDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/FirstAidKitDrop
+  Guid:
+    Data1: -1972253122
+    Data2: 1289176916
+    Data3: -777288527
+    Data4: 1337321430
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &815813851935641334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Desktop/preppergame/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638779942718774251
+  FileSizes:
+  - Name: Desktop
+    Value: 2578
+  Exists: 1
+--- !u!114 &886403568572075083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/PhonePickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/PhonePickup
+  Guid:
+    Data1: 1812089055
+    Data2: 1134640828
+    Data3: -1551251313
+    Data4: -1819498611
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1239729005107424334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/FirstAidKitPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/FirstAidKitPickup
+  Guid:
+    Data1: 296430367
+    Data2: 1079032765
+    Data3: -1673561458
+    Data4: 382456505
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1335865101140768547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Select
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Select
+  Guid:
+    Data1: 1004693838
+    Data2: 1173891414
+    Data3: 1288167304
+    Data4: -1879158689
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1486224512627148843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/CabinetClose
+  m_EditorClassIdentifier: 
+  Path: event:/FX/CabinetClose
+  Guid:
+    Data1: 746641094
+    Data2: 1098940518
+    Data3: 1673082760
+    Data4: 2140037563
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.5
+  MaxDistance: 5.6
+  Length: 0
+--- !u!114 &2535266254913242888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/JacketPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/JacketPickup
+  Guid:
+    Data1: -1646788491
+    Data2: 1276225144
+    Data3: 1518980008
+    Data4: 607980121
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2835213155485496966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BaseAmbience2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BaseAmbience2
+  Guid:
+    Data1: -114529361
+    Data2: 1235021864
+    Data3: 1737601701
+    Data4: 680058609
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 85175
+--- !u!114 &3533836575921491276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/PassportDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/PassportDrop
+  Guid:
+    Data1: 1884240116
+    Data2: 1320161586
+    Data3: -730798459
+    Data4: -486834405
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3983195939842861431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/BinderPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/BinderPickup
+  Guid:
+    Data1: -403607576
+    Data2: 1308966995
+    Data3: 1687863689
+    Data4: -1412048372
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4197003392104304897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/TeddyPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/TeddyPickup
+  Guid:
+    Data1: -759398338
+    Data2: 1163506090
+    Data3: -642056514
+    Data4: 1495563339
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4837280219639593674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/MapPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/MapPickup
+  Guid:
+    Data1: -991665867
+    Data2: 1171811982
+    Data3: -131718235
+    Data4: -986517190
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4878055551423207922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/MapDrop
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/MapDrop
+  Guid:
+    Data1: -515163717
+    Data2: 1287675376
+    Data3: -570885749
+    Data4: 1065199215
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5585151334389777151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/ObjectStore
+  m_EditorClassIdentifier: 
+  Path: event:/FX/ObjectStore
+  Guid:
+    Data1: 845751689
+    Data2: 1245788600
+    Data3: 32971197
+    Data4: -1835793721
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6060306976000507609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/RandomAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Music/RandomAmbience
+  Guid:
+    Data1: -1329832160
+    Data2: 1130016471
+    Data3: 393232543
+    Data4: 304362544
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32000
+--- !u!114 &6739018334670227921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/FlashlightPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/FlashlightPickup
+  Guid:
+    Data1: -1531875545
+    Data2: 1309022467
+    Data3: 1851761283
+    Data4: -960133631
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7140785440729067354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ActiveObjects/PassportPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ActiveObjects/PassportPickup
+  Guid:
+    Data1: -1298364648
+    Data2: 1301458733
+    Data3: 460085149
+    Data4: -1632450108
+  Banks:
+  - {fileID: 400101203596815037}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
