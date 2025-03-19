@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4b7a18cb-50e4-46e7-a330-26bee5e9e3a2}">
+		<property name="assetPath">
+			<value>406586__stubb__picture-drop_heavy-paper_near_mono.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.55466666666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{46355f67-9045-4546-9c16-3c23aaf7a56c}</destination>
+		</relationship>
+	</object>
+</objects>

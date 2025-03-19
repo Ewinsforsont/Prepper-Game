@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{61de87e4-d31f-4202-8763-276e97ceeb94}">
+		<property name="assetPath">
+			<value>Dropping_WoodPile_79.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.176485260770975</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{46355f67-9045-4546-9c16-3c23aaf7a56c}</destination>
+		</relationship>
+	</object>
+</objects>

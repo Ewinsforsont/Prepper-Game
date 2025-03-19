@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cf58123e-4d92-4ff4-8232-ef6b18e73287}">
+		<property name="assetPath">
+			<value>762402__fossarts__small-plastic-bag-shake-x2-1-2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.40971875000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{46355f67-9045-4546-9c16-3c23aaf7a56c}</destination>
+		</relationship>
+	</object>
+</objects>

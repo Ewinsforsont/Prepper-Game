@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d7211033-a299-43de-a28f-83bf3b518201}">
+		<property name="assetPath">
+			<value>phonedrop.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.23510204081632652</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{46355f67-9045-4546-9c16-3c23aaf7a56c}</destination>
+		</relationship>
+	</object>
+</objects>

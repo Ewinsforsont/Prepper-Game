@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerVCA" id="{6a83e73d-65da-470f-a1c5-b06a2507ae1b}">
+		<property name="name">
+			<value>Reverbthisaudio</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{aa602486-e72f-4c97-99e5-9a0e45630e43}</destination>
+		</relationship>
+	</object>
+</objects>

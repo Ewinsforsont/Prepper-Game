@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MasterTagFolder" id="{3c6fbf59-e5e5-497a-8e20-a5313159e0a8}">
+		<property name="name">
+			<value>Master</value>
+		</property>
+		<relationship name="items">
+			<destination>{b0c9cd5b-05eb-47ea-8a9b-ecfe414476ac}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{b0c9cd5b-05eb-47ea-8a9b-ecfe414476ac}">
+		<property name="name">
+			<value>Reverbthis</value>
+		</property>
+	</object>
+</objects>
