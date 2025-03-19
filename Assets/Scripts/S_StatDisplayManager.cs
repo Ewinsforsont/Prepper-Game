@@ -13,6 +13,7 @@ public class S_StatDisplayManager : MonoBehaviour
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text toiletriesText;
     [SerializeField, Tooltip("The textfield that manages the specified resource")] private TMP_Text miscText;
     [SerializeField, Tooltip("The textfield that displayes the items collected in the main scene")] private TMP_Text itemText;
+    [SerializeField, Tooltip("The panel parent to the item text field")] private GameObject panel;
 
     private S_ScoreManager scoreManager;
     private S_Resource[] resources;
@@ -50,6 +51,8 @@ public class S_StatDisplayManager : MonoBehaviour
         resources = scoreManager.Resource;
         items = scoreManager.Items;
         
+        if (panel != null)
+            panel.SetActive(true);
         for (int i = 0; i < resources.Length; i++) // Switch for resource text display
         {
             switch (resources[i].type)
@@ -106,10 +109,15 @@ public class S_StatDisplayManager : MonoBehaviour
                     Debug.Log(items[i].ammount + " " + i);
             }
         }
-        if (itemText != null)
+        if (itemText != null && text != "")
             itemText.text = text;
-        else
+        else if (itemText == null)
             Debug.LogWarning("Item Text is null");
+        else if (panel != null && text == "")
+            panel.SetActive(false);
+        {
+            
+        }
         if (printText)
             Debug.Log(text);
         updateStatDisplay = false;
