@@ -337,6 +337,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &90031062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90031056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -515163717
+      Data2: 1287675376
+      Data3: -570885749
+      Data4: 1065199215
+    Path: event:/ActiveObjects/MapDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &91360109
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +664,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8335340995284136202, guid: d2a5a06e8ae122b448b978f79e44acd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 148946480}
+    - targetCorrespondingSourceObject: {fileID: 8335340995284136202, guid: d2a5a06e8ae122b448b978f79e44acd8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 148946483}
     - targetCorrespondingSourceObject: {fileID: 5975360353330639093, guid: d2a5a06e8ae122b448b978f79e44acd8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1125402925}
@@ -678,6 +712,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &148946483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148946479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -2083183208
+      Data2: 1324738287
+      Data3: 2124305061
+      Data4: -1594980319
+    Path: event:/ActiveObjects/CanDrop 2
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0.5
+  OverrideMaxDistance: 2
 --- !u!114 &148946487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,6 +804,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &165546919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165546891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 1386826730
+      Data2: 1191410988
+      Data3: 1337051779
+      Data4: -1202801120
+    Path: event:/ActiveObjects/RadioDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &198006518 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4444169536686267953, guid: 5469295113298e8409899c6939a0ffec, type: 3}
@@ -979,6 +1075,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &280123630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280123624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 2141147211
+      Data2: 1152270621
+      Data3: -403103356
+      Data4: 981152170
+    Path: event:/ActiveObjects/JacketDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &370476146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6640299936326662503, guid: 4d01f19292cca414ab75793b8abe69af, type: 3}
@@ -1012,6 +1139,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &370476152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370476146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -1740179063
+      Data2: 1146597405
+      Data3: -1002096977
+      Data4: -106394106
+    Path: event:/ActiveObjects/BucketDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &397251122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1325,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2147772101110324899, guid: d68e5fbb8f1e4b54485caecdc3685f56, type: 3}
       insertIndex: -1
       addedObject: {fileID: 811468374}
+    - targetCorrespondingSourceObject: {fileID: 2147772101110324899, guid: d68e5fbb8f1e4b54485caecdc3685f56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 811468377}
     - targetCorrespondingSourceObject: {fileID: 6135385052494838709, guid: d68e5fbb8f1e4b54485caecdc3685f56, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1356449831}
@@ -1859,6 +2020,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5855938302729264345, guid: b0378d5038bdf394fa22b553dffc9ec1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 165546905}
+    - targetCorrespondingSourceObject: {fileID: 5855938302729264345, guid: b0378d5038bdf394fa22b553dffc9ec1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 165546919}
     - targetCorrespondingSourceObject: {fileID: 7120634359906729554, guid: b0378d5038bdf394fa22b553dffc9ec1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 937231547}
@@ -1934,6 +2098,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5809620388703987618, guid: d09f7acf33eaa0f4a9fd3b9286f5576b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1047032529}
+    - targetCorrespondingSourceObject: {fileID: 5809620388703987618, guid: d09f7acf33eaa0f4a9fd3b9286f5576b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1047032532}
     - targetCorrespondingSourceObject: {fileID: 9129569229160646369, guid: d09f7acf33eaa0f4a9fd3b9286f5576b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1498424721}
@@ -2009,6 +2176,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4250588977448943584, guid: 5469295113298e8409899c6939a0ffec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1473082363}
+    - targetCorrespondingSourceObject: {fileID: 4250588977448943584, guid: 5469295113298e8409899c6939a0ffec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1473082366}
     - targetCorrespondingSourceObject: {fileID: 4444169536686267953, guid: 5469295113298e8409899c6939a0ffec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 198006523}
@@ -2084,6 +2254,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4870993346952633188, guid: b792967d92df7e749b527490bfd6b71f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 90031059}
+    - targetCorrespondingSourceObject: {fileID: 4870993346952633188, guid: b792967d92df7e749b527490bfd6b71f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 90031062}
     - targetCorrespondingSourceObject: {fileID: 8902909356019202030, guid: b792967d92df7e749b527490bfd6b71f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 959656501}
@@ -2215,6 +2388,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &806628650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806628644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -1224736012
+      Data2: 1191340753
+      Data3: -1659001929
+      Data4: 1351081151
+    Path: event:/ActiveObjects/PaperDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &811468371 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2147772101110324899, guid: d68e5fbb8f1e4b54485caecdc3685f56, type: 3}
@@ -2248,6 +2452,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &811468377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811468371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -1972253122
+      Data2: 1289176916
+      Data3: -777288527
+      Data4: 1337321430
+    Path: event:/ActiveObjects/FirstAidKitDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &852037185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2307,6 +2542,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8055630465168981184, guid: 954f77eb47e54254583b13fcbc52a8d4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1537707779}
+    - targetCorrespondingSourceObject: {fileID: 8055630465168981184, guid: 954f77eb47e54254583b13fcbc52a8d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1537707782}
     - targetCorrespondingSourceObject: {fileID: 7207726464329477564, guid: 954f77eb47e54254583b13fcbc52a8d4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1254876258}
@@ -2816,6 +3054,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6640299936326662503, guid: 4d01f19292cca414ab75793b8abe69af, type: 3}
       insertIndex: -1
       addedObject: {fileID: 370476149}
+    - targetCorrespondingSourceObject: {fileID: 6640299936326662503, guid: 4d01f19292cca414ab75793b8abe69af, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 370476152}
     - targetCorrespondingSourceObject: {fileID: 3071490766696156410, guid: 4d01f19292cca414ab75793b8abe69af, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1908200301}
@@ -2853,6 +3094,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &1047032532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047032526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -410613419
+      Data2: 1329146817
+      Data3: 601421214
+      Data4: -1107154978
+    Path: event:/ActiveObjects/Phonedrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1094507345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3182,6 +3454,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &1129612105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129612099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 1884240116
+      Data2: 1320161586
+      Data3: -730798459
+      Data4: -486834405
+    Path: event:/ActiveObjects/PassportDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1152598334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3300,8 +3603,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 0.35999998
+  OverrideMaxDistance: 2
 --- !u!1 &1240435514
 GameObject:
   m_ObjectHideFlags: 0
@@ -3588,6 +3891,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7189729099300759579, guid: 10a8716ae2daaf5448b70c20a0c8fe6b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1473552161}
+    - targetCorrespondingSourceObject: {fileID: 7189729099300759579, guid: 10a8716ae2daaf5448b70c20a0c8fe6b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1473552164}
     - targetCorrespondingSourceObject: {fileID: 4312246158556051532, guid: 10a8716ae2daaf5448b70c20a0c8fe6b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 479204347}
@@ -3774,6 +4080,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4228632846750954132, guid: 08f30222acb66294caa4822ae03436dd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 806628647}
+    - targetCorrespondingSourceObject: {fileID: 4228632846750954132, guid: 08f30222acb66294caa4822ae03436dd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 806628650}
     - targetCorrespondingSourceObject: {fileID: 8579328975963310889, guid: 08f30222acb66294caa4822ae03436dd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2026990753}
@@ -3789,6 +4098,7 @@ GameObject:
   - component: {fileID: 1309630813}
   - component: {fileID: 1309630812}
   - component: {fileID: 1309630815}
+  - component: {fileID: 1309630816}
   m_Layer: 0
   m_Name: roomtone
   m_TagString: Untagged
@@ -3861,6 +4171,37 @@ MonoBehaviour:
   - Master.strings
   CollisionTag: 
   PreloadSamples: 0
+--- !u!114 &1309630816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309630811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1087780923
+      Data2: 1110263712
+      Data3: -119626853
+      Data4: -1612393918
+    Path: snapshot:/reverbsnapshot
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1311742495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3932,6 +4273,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 452469787378508270, guid: a28c24644cc4a6b4086454b97910e931, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1129612102}
+    - targetCorrespondingSourceObject: {fileID: 452469787378508270, guid: a28c24644cc4a6b4086454b97910e931, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1129612105}
     - targetCorrespondingSourceObject: {fileID: 5710691968502797224, guid: a28c24644cc4a6b4086454b97910e931, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1838774842}
@@ -3995,6 +4339,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8778970956941814284, guid: f01c5ae0fcd60ff4eb7eeae9afa04b45, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1403847919}
+    - targetCorrespondingSourceObject: {fileID: 8778970956941814284, guid: f01c5ae0fcd60ff4eb7eeae9afa04b45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1403847922}
     - targetCorrespondingSourceObject: {fileID: 8517642507445206913, guid: f01c5ae0fcd60ff4eb7eeae9afa04b45, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1639584160}
@@ -4382,6 +4729,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &1403847922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403847916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -1126842658
+      Data2: 1313115374
+      Data3: 457615776
+      Data4: 763062833
+    Path: event:/ActiveObjects/BinderDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1407781536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4658,6 +5036,119 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 20.41, y: -72.9, z: -24.4}
+--- !u!1 &1433327556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433327560}
+  - component: {fileID: 1433327559}
+  - component: {fileID: 1433327558}
+  - component: {fileID: 1433327557}
+  m_Layer: 0
+  m_Name: Floor Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1433327557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433327556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
+--- !u!114 &1433327558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433327556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64dde908aab18546a2f010a4b4711d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &1433327559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433327556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.4030218, y: 0.17420608, z: 3.0366757}
+  m_Center: {x: 0.38464975, y: 0.033148885, z: 1.0183381}
+--- !u!4 &1433327560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433327556}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7037189, y: 0.618, z: -1.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1459328035
 GameObject:
   m_ObjectHideFlags: 0
@@ -5451,6 +5942,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &1473082366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473082360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 1776485319
+      Data2: 1147273636
+      Data3: 232883330
+      Data4: -247777767
+    Path: event:/ActiveObjects/FlashlightDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1473552158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7189729099300759579, guid: 10a8716ae2daaf5448b70c20a0c8fe6b, type: 3}
@@ -5484,6 +6006,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &1473552164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473552158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 594085246
+      Data2: 1339342314
+      Data3: -1332836218
+      Data4: 585978430
+    Path: event:/ActiveObjects/WastBagDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1498424716 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9129569229160646369, guid: d09f7acf33eaa0f4a9fd3b9286f5576b, type: 3}
@@ -5550,6 +6103,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &1537707782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537707776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: 1519858659
+      Data2: 1130020965
+      Data3: 1803891388
+      Data4: 1463539899
+    Path: event:/ActiveObjects/TeddyDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1625059779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5807,6 +6391,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6391119572663005579, guid: 8474cc0cb0f799e4a961b01a0b5c1b35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2015139165}
+    - targetCorrespondingSourceObject: {fileID: 6391119572663005579, guid: 8474cc0cb0f799e4a961b01a0b5c1b35, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2015139166}
     - targetCorrespondingSourceObject: {fileID: 4263660230173132378, guid: 8474cc0cb0f799e4a961b01a0b5c1b35, type: 3}
       insertIndex: -1
       addedObject: {fileID: 451189562}
@@ -6270,6 +6857,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1847297479183694551, guid: 8e12dcaf2c2048b459afd1be389f47aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 280123627}
+    - targetCorrespondingSourceObject: {fileID: 1847297479183694551, guid: 8e12dcaf2c2048b459afd1be389f47aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 280123630}
     - targetCorrespondingSourceObject: {fileID: 452135671396636923, guid: 8e12dcaf2c2048b459afd1be389f47aa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1401991400}
@@ -6966,6 +7556,37 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 0}
+--- !u!114 &2015139166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015139160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  EventReference:
+    Guid:
+      Data1: -199508832
+      Data2: 1134188162
+      Data3: -1307460222
+      Data4: -367300867
+    Path: event:/ActiveObjects/WaterBottleDrop
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2026385258
 GameObject:
   m_ObjectHideFlags: 0
@@ -7213,3 +7834,4 @@ SceneRoots:
   - {fileID: 104722742}
   - {fileID: 1969798170}
   - {fileID: 549208275}
+  - {fileID: 1433327560}
