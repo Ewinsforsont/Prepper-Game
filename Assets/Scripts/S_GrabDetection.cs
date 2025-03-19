@@ -8,8 +8,8 @@ using Oculus.Interaction.HandGrab;
 public class S_GrabDetection : MonoBehaviour
 {
     #region Variables
-    UnityEvent wasPickedUp;
-    [SerializeField, Tooltip("The interaction script")] private HandGrabInteractable interactable;
+    [SerializeField, Tooltip("This is triggered when the object is picked up")]UnityEvent wasPickedUp;
+    [SerializeField, Tooltip("The ISDK_HandGrabInteraction, will find it on it's own if left empty")] private HandGrabInteractable interactable;
     private bool hasBeenGrabbed;
     #endregion
     void Start()
