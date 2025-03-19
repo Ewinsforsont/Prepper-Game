@@ -1239,6 +1239,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 535872049821468103, guid: 2bae1387533026a4c8a93e8976c3ea3e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02089
+      objectReference: {fileID: 0}
     - target: {fileID: 2736019942910387197, guid: 2bae1387533026a4c8a93e8976c3ea3e, type: 3}
       propertyPath: m_Name
       value: "K\xF6k VR"
