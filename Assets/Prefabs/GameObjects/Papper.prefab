@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8030174481734653143}
   - component: {fileID: 8587001981259436348}
+  - component: {fileID: 7188687975404524382}
   m_Layer: 0
   m_Name: Papper
   m_TagString: Untagged
@@ -61,6 +62,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7188687975404524382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228632846750954132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 8782495553046125724}
 --- !u!1 &8579328975963310889
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,6 +102,7 @@ GameObject:
   - component: {fileID: 6332899171619322088}
   - component: {fileID: 8782495553046125724}
   - component: {fileID: 4625255851433147942}
+  - component: {fileID: 3473231695911907968}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -181,6 +211,34 @@ MonoBehaviour:
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
+--- !u!114 &3473231695911907968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8579328975963310889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 0}
 --- !u!1001 &6112884431352554431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,6 +291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: papper
       objectReference: {fileID: 0}
+    - target: {fileID: 8508978492989043883, guid: 2fe4d2b1e7daf8e48ac0077217043370, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8beefa1fc96dd5e4aa0f7ac59d670d3e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

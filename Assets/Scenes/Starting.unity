@@ -1243,6 +1243,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.02089
       objectReference: {fileID: 0}
+    - target: {fileID: 2552495172100539092, guid: 2bae1387533026a4c8a93e8976c3ea3e, type: 3}
+      propertyPath: m_text
+      value: "S\xE5h\xE4r spelar du:\n1, Leta runt i rummet och hitta hush\xE5llsartiklar
+        som kan vara till hj\xE4lp f\xF6r dig om krisen kommer. \n\n2, Placera ut
+        de objekt du anser vara allra viktigast i skafferiet\n\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 2736019942910387197, guid: 2bae1387533026a4c8a93e8976c3ea3e, type: 3}
       propertyPath: m_Name
       value: "K\xF6k VR"
