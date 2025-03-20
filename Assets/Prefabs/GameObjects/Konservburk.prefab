@@ -54,7 +54,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 3376851546590203008}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 7976491090726292444}
+  _rigidbody: {fileID: 3889798459705873378}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &6060709998862338446
@@ -74,7 +74,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 7869814106698727245}
-  _rigidbody: {fileID: 7976491090726292444}
+  _rigidbody: {fileID: 3889798459705873378}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -115,7 +115,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 7869814106698727245}
-  _rigidbody: {fileID: 7976491090726292444}
+  _rigidbody: {fileID: 3889798459705873378}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
@@ -158,7 +158,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3376851546590203008}
-  - component: {fileID: 7976491090726292444}
   - component: {fileID: 7403754512969822726}
   m_Layer: 0
   m_Name: Konservburk
@@ -183,33 +182,6 @@ Transform:
   - {fileID: 6460253384724834895}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &7976491090726292444
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8335340995284136202}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &7403754512969822726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,6 +273,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4476761331759143864}
   m_SourcePrefab: {fileID: 100100000, guid: bdbf762dd8ee19a4992d41add91018fa, type: 3}
+--- !u!54 &3889798459705873378 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2332869082634134464, guid: bdbf762dd8ee19a4992d41add91018fa, type: 3}
+  m_PrefabInstance: {fileID: 1556929377651355682}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5975360353330639093 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5149845902701019351, guid: bdbf762dd8ee19a4992d41add91018fa, type: 3}

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156200639238115451}
-  - component: {fileID: 6181722847962751523}
   - component: {fileID: 4680913781861111899}
   m_Layer: 0
   m_Name: ID-pass
@@ -34,33 +33,6 @@ Transform:
   - {fileID: 6877414511803233949}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &6181722847962751523
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452469787378508270}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &4680913781861111899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +115,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1156200639238115451}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 6181722847962751523}
+  _rigidbody: {fileID: 4025075831960407982}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &7720123665106918704
@@ -163,7 +135,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1277875011328899393}
-  _rigidbody: {fileID: 6181722847962751523}
+  _rigidbody: {fileID: 4025075831960407982}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -204,7 +176,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1277875011328899393}
-  _rigidbody: {fileID: 6181722847962751523}
+  _rigidbody: {fileID: 4025075831960407982}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
@@ -298,6 +270,11 @@ PrefabInstance:
       addedObject: {fileID: 842349880521774077}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}
+--- !u!54 &4025075831960407982 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4045627330950467615, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}
+  m_PrefabInstance: {fileID: 1152646333650739121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6877414511803233949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5804710786711251244, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}

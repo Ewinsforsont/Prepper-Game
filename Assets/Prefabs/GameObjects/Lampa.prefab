@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1127334210131612564}
-  - component: {fileID: 2303550776852154913}
   - component: {fileID: 5331316838709739213}
   m_Layer: 0
   m_Name: Lampa
@@ -34,33 +33,6 @@ Transform:
   - {fileID: 8505052278246645299}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2303550776852154913
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250588977448943584}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &5331316838709739213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +115,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1127334210131612564}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 2303550776852154913}
+  _rigidbody: {fileID: 5805171339331919827}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &1186709881666589719
@@ -163,7 +135,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 6661628631390120923}
-  _rigidbody: {fileID: 2303550776852154913}
+  _rigidbody: {fileID: 5805171339331919827}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -204,7 +176,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 6661628631390120923}
-  _rigidbody: {fileID: 2303550776852154913}
+  _rigidbody: {fileID: 5805171339331919827}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
@@ -298,6 +270,11 @@ PrefabInstance:
       addedObject: {fileID: 8191144930922493519}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c08e7a743da672b47a85200d40ed1f69, type: 3}
+--- !u!54 &5805171339331919827 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 9056505541364458260, guid: c08e7a743da672b47a85200d40ed1f69, type: 3}
+  m_PrefabInstance: {fileID: 3260385527916592327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8505052278246645299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6572780048461226740, guid: c08e7a743da672b47a85200d40ed1f69, type: 3}

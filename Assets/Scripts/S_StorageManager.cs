@@ -14,6 +14,13 @@ public class S_StorageManager : MonoBehaviour
     [Tooltip("What gameobject is currently stored")] private int storedItem = 0;
     #endregion
 
+
+    private void Start()
+    {
+        if (scoreManager == null)
+            FindAnyObjectByType(typeof(S_ScoreManager));
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger Entered");

@@ -54,7 +54,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 7731916367403296022}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 9009307315588098922}
+  _rigidbody: {fileID: 5283626433402721502}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &1055246786361311476
@@ -74,7 +74,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 6247405906993041013}
-  _rigidbody: {fileID: 9009307315588098922}
+  _rigidbody: {fileID: 5283626433402721502}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -115,7 +115,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 6247405906993041013}
-  _rigidbody: {fileID: 9009307315588098922}
+  _rigidbody: {fileID: 5283626433402721502}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
@@ -158,7 +158,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7731916367403296022}
-  - component: {fileID: 9009307315588098922}
   - component: {fileID: 3712885547473203234}
   m_Layer: 0
   m_Name: "Nallebj\xF6rn"
@@ -183,33 +182,6 @@ Transform:
   - {fileID: 6063284841572281466}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &9009307315588098922
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8055630465168981184}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &3712885547473203234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,6 +274,11 @@ PrefabInstance:
       addedObject: {fileID: 1408505742084670961}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
+--- !u!54 &5283626433402721502 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 316077929540842692, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
+  m_PrefabInstance: {fileID: 5562465662880325658}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6063284841572281466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1807285390670236768, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
