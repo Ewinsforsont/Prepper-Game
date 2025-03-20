@@ -34,7 +34,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.148846, y: 3.148846, z: 3.148846}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 158523277353224419}
   m_Father: {fileID: 7558228804885260691}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3783822713020031611
@@ -202,12 +203,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4312246158556051532}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.31757668, y: 0.31757668, z: 0.31757668}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7558228804885260691}
+  m_Father: {fileID: 228853591326207454}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5264641919820895835
 MonoBehaviour:
@@ -334,6 +335,7 @@ GameObject:
   - component: {fileID: 7558228804885260691}
   - component: {fileID: 6283421927823441704}
   - component: {fileID: 4175457064148570693}
+  - component: {fileID: 871086383188190851}
   m_Layer: 0
   m_Name: "Avfallsp\xE5se"
   m_TagString: Untagged
@@ -355,7 +357,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 228853591326207454}
-  - {fileID: 158523277353224419}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &6283421927823441704
@@ -413,3 +414,24 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactable: {fileID: 6279755445221401689}
+--- !u!65 &871086383188190851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7189729099300759579}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10840629, y: 0.0010951967, z: 0.08710957}
+  m_Center: {x: -0.000014050083, y: 0.021395972, z: 0.050727457}
