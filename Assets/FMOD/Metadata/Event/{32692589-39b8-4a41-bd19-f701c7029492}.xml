@@ -60,6 +60,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3a0f107a-98e7-42f5-b52b-d1ddf2029384}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
 		<property name="maximumDistance">
 			<value>2.4000001</value>
 		</property>
@@ -88,7 +91,7 @@
 	</object>
 	<object class="MultiSound" id="{b1a8489f-d0db-45c7-8380-01e325464f1d}">
 		<relationship name="sounds">
-			<destination>{1ab5f295-248d-484a-a530-dc91e04d207b}</destination>
+			<destination>{ee346092-0913-4245-9937-caeaf02c74f5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{f633fcc3-9c90-4aa9-a474-40e39e9131ff}">
@@ -104,13 +107,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{06c7063f-d732-4a1b-891b-5c325cfcc4be}" />
-	<object class="SingleSound" id="{1ab5f295-248d-484a-a530-dc91e04d207b}">
-		<relationship name="modulators">
-			<destination>{064c0508-31fb-4dbc-b5ef-c9d102b01906}</destination>
-			<destination>{ae73ecaf-c515-4f7b-9a72-717d3886ed8a}</destination>
-		</relationship>
-		<relationship name="audioFile">
-			<destination>{64d413db-30fd-46ec-b73f-67c948c3a684}</destination>
+	<object class="MultiSound" id="{ee346092-0913-4245-9937-caeaf02c74f5}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{8070cea4-6c50-4b57-a9e8-df9857bc6480}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{dc099da6-64a1-4535-acfa-37a4918d9211}" />
@@ -120,41 +122,9 @@
 			<value>2.4000001</value>
 		</property>
 	</object>
-	<object class="ADSRModulator" id="{064c0508-31fb-4dbc-b5ef-c9d102b01906}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="initialValue">
-			<value>-80</value>
-		</property>
-		<property name="attackTime">
-			<value>0</value>
-		</property>
-		<property name="peakValue">
-			<value>1.73333359</value>
-		</property>
-		<property name="holdTime">
-			<value>506.410309</value>
-		</property>
-		<property name="decayTime">
-			<value>1980.76904</value>
-		</property>
-		<property name="sustainValue">
-			<value>-22.7936516</value>
-		</property>
-		<property name="releaseShape">
-			<value>-0.0475981161</value>
-		</property>
-		<property name="finalValue">
-			<value>-80</value>
-		</property>
-	</object>
-	<object class="RandomizerModulator" id="{ae73ecaf-c515-4f7b-9a72-717d3886ed8a}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>5</value>
-		</property>
+	<object class="SingleSound" id="{8070cea4-6c50-4b57-a9e8-df9857bc6480}">
+		<relationship name="audioFile">
+			<destination>{64d413db-30fd-46ec-b73f-67c948c3a684}</destination>
+		</relationship>
 	</object>
 </objects>
