@@ -18,7 +18,10 @@ public class S_StorageManager : MonoBehaviour
     private void Start()
     {
         if (scoreManager == null)
-            FindAnyObjectByType(typeof(S_ScoreManager));
+        {
+            if (!FindGameManager(out scoreManager))
+                Debug.LogError("No GameManager Was found");
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,5 +42,21 @@ public class S_StorageManager : MonoBehaviour
             scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount * -1, resourceManager.item);
             storedItem = 0;
         }
+    }
+
+    private bool FindGameManager(out S_ScoreManager ScoreManager)
+    {
+        GameObject manager = GameObject.FindGameObjectWithTag("GameManager");
+        if (manager == null)
+        {
+            ScoreManager = null;
+            return false;
+        }
+        else
+        {
+            ScoreManager = manager.GetComponent<S_ScoreManager>();
+            return true;
+        }
+
     }
 }
