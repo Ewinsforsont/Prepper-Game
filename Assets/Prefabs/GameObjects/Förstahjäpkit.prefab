@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6790296969931690006}
-  - component: {fileID: 8071213581673714307}
+  - component: {fileID: 8467937791123349448}
   m_Layer: 0
   m_Name: "F\xF6rstahj\xE4pkit"
   m_TagString: Untagged
@@ -27,40 +27,40 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.755, y: 0.048, z: -5.972}
-  m_LocalScale: {x: 0.53716975, y: 0.53716975, z: 0.53716975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5214547007877946763}
+  - {fileID: 6445080511724008733}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8071213581673714307
-MonoBehaviour:
+--- !u!54 &8467937791123349448
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147772101110324899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasPickedUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  interactable: {fileID: 2259070773430368461}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6135385052494838709
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,7 +73,6 @@ GameObject:
   - component: {fileID: 964328566328759858}
   - component: {fileID: 2259070773430368461}
   - component: {fileID: 4536876171631546685}
-  - component: {fileID: 1265140628681855524}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -89,12 +88,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6135385052494838709}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000051021576, y: -0.14985792, z: -0.0005964495}
-  m_LocalScale: {x: 0.11203778, y: 0.11203778, z: 0.11203778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 59054882121613168}
+  m_Father: {fileID: 6790296969931690006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &964328566328759858
 MonoBehaviour:
@@ -115,7 +114,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 6790296969931690006}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 9210715096305197811}
+  _rigidbody: {fileID: 8467937791123349448}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &2259070773430368461
@@ -135,7 +134,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 964328566328759858}
-  _rigidbody: {fileID: 9210715096305197811}
+  _rigidbody: {fileID: 8467937791123349448}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -176,40 +175,12 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 964328566328759858}
-  _rigidbody: {fileID: 9210715096305197811}
+  _rigidbody: {fileID: 8467937791123349448}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
---- !u!114 &1265140628681855524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6135385052494838709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasPickedUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  interactable: {fileID: 0}
 --- !u!1001 &6467838910597661269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -264,24 +235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6418666457407946021, guid: 36ca4aace6b6c204f8463e0f60e8eaaf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6445080511724008733}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36ca4aace6b6c204f8463e0f60e8eaaf, type: 3}
---- !u!4 &59054882121613168 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6418666457407946021, guid: 36ca4aace6b6c204f8463e0f60e8eaaf, type: 3}
-  m_PrefabInstance: {fileID: 6467838910597661269}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5214547007877946763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1269922567091363806, guid: 36ca4aace6b6c204f8463e0f60e8eaaf, type: 3}
-  m_PrefabInstance: {fileID: 6467838910597661269}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &9210715096305197811 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 2743089839661834406, guid: 36ca4aace6b6c204f8463e0f60e8eaaf, type: 3}
   m_PrefabInstance: {fileID: 6467838910597661269}
   m_PrefabAsset: {fileID: 0}

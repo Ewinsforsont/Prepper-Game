@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156200639238115451}
-  - component: {fileID: 4680913781861111899}
+  - component: {fileID: 6181722847962751523}
   m_Layer: 0
   m_Name: ID-pass
   m_TagString: Untagged
@@ -27,40 +27,40 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.507, y: 1.312, z: -5.677}
-  m_LocalScale: {x: 0.6697255, y: 0.6697255, z: 0.6697255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6877414511803233949}
+  - {fileID: 842349880521774077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4680913781861111899
-MonoBehaviour:
+--- !u!54 &6181722847962751523
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452469787378508270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasPickedUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  interactable: {fileID: 7720123665106918704}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5710691968502797224
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,7 +73,6 @@ GameObject:
   - component: {fileID: 1277875011328899393}
   - component: {fileID: 7720123665106918704}
   - component: {fileID: 5069231431263629275}
-  - component: {fileID: 3967742769889158419}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -89,12 +88,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5710691968502797224}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2719555, y: 0.2719555, z: 0.2719555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6877414511803233949}
+  m_Father: {fileID: 1156200639238115451}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1277875011328899393
 MonoBehaviour:
@@ -115,7 +114,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1156200639238115451}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 4025075831960407982}
+  _rigidbody: {fileID: 6181722847962751523}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &7720123665106918704
@@ -135,7 +134,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1277875011328899393}
-  _rigidbody: {fileID: 4025075831960407982}
+  _rigidbody: {fileID: 6181722847962751523}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -176,40 +175,12 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1277875011328899393}
-  _rigidbody: {fileID: 4025075831960407982}
+  _rigidbody: {fileID: 6181722847962751523}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
---- !u!114 &3967742769889158419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5710691968502797224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasPickedUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  interactable: {fileID: 0}
 --- !u!1001 &1152646333650739121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -264,17 +235,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5804710786711251244, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 842349880521774077}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}
---- !u!54 &4025075831960407982 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 4045627330950467615, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}
-  m_PrefabInstance: {fileID: 1152646333650739121}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6877414511803233949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5804710786711251244, guid: 8d7c5fa45935ba843b2902043b631013, type: 3}

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6247405906993041013}
   - component: {fileID: 1055246786361311476}
   - component: {fileID: 3780955122083023546}
-  - component: {fileID: 7019256077717563926}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -28,12 +27,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7207726464329477564}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.065638565, y: 0.065638565, z: 0.065638565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6063284841572281466}
+  m_Father: {fileID: 7731916367403296022}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6247405906993041013
 MonoBehaviour:
@@ -54,7 +53,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 7731916367403296022}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 5283626433402721502}
+  _rigidbody: {fileID: 9009307315588098922}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &1055246786361311476
@@ -74,7 +73,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 6247405906993041013}
-  _rigidbody: {fileID: 5283626433402721502}
+  _rigidbody: {fileID: 9009307315588098922}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -115,40 +114,12 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 6247405906993041013}
-  _rigidbody: {fileID: 5283626433402721502}
+  _rigidbody: {fileID: 9009307315588098922}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
---- !u!114 &7019256077717563926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7207726464329477564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasPickedUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  interactable: {fileID: 0}
 --- !u!1 &8055630465168981184
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7731916367403296022}
-  - component: {fileID: 3712885547473203234}
+  - component: {fileID: 9009307315588098922}
   m_Layer: 0
   m_Name: "Nallebj\xF6rn"
   m_TagString: Untagged
@@ -180,36 +151,36 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6063284841572281466}
+  - {fileID: 1408505742084670961}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3712885547473203234
-MonoBehaviour:
+--- !u!54 &9009307315588098922
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8055630465168981184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wasPickedUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  interactable: {fileID: 1055246786361311476}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &5562465662880325658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -268,17 +239,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1807285390670236768, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1408505742084670961}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
---- !u!54 &5283626433402721502 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 316077929540842692, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
-  m_PrefabInstance: {fileID: 5562465662880325658}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6063284841572281466 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1807285390670236768, guid: 29d39e2ec45844148aca2cfec13d5af4, type: 3}
