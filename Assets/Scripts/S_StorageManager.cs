@@ -27,7 +27,7 @@ public class S_StorageManager : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger Entered");
-        if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) && storedItem == 0)
+        if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager)/* && storedItem == 0*/)
         {
             scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount, resourceManager.item);
             storedItem = other.gameObject.GetInstanceID();
@@ -37,7 +37,7 @@ public class S_StorageManager : MonoBehaviour
     }
     private void OnTriggerExit(Collider other) 
     {
-        if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) && other.gameObject.GetInstanceID() == storedItem)
+        if (other.gameObject.TryGetComponent<S_ResourceManager>(out resourceManager) /* && other.gameObject.GetInstanceID() == storedItem*/)
         {
             scoreManager.ChangeScore(resourceManager.resource.type, resourceManager.resource.ammount * -1, resourceManager.item);
             storedItem = 0;
