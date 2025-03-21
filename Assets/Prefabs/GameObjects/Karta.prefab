@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939981989746500703}
-  - component: {fileID: 6605186708168026333}
+  - component: {fileID: 7071508501778695931}
   m_Layer: 0
   m_Name: Karta
   m_TagString: Untagged
@@ -27,40 +27,40 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.452, y: 0.148, z: -5.051}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6054657, y: 0.6054657, z: 0.6054657}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6500231505886393367}
-  - {fileID: 5073497016853028385}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &6605186708168026333
-Rigidbody:
+--- !u!114 &7071508501778695931
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4870993346952633188}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 7290979321812938690}
 --- !u!1 &8902909356019202030
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 1368338883152981120}
   - component: {fileID: 7290979321812938690}
   - component: {fileID: 2729883381261242984}
+  - component: {fileID: 930521208090089797}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -88,12 +89,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8902909356019202030}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.018505493, y: 0.018505493, z: 0.018505493}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1939981989746500703}
+  m_Father: {fileID: 6500231505886393367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1368338883152981120
 MonoBehaviour:
@@ -114,7 +115,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 1939981989746500703}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 6605186708168026333}
+  _rigidbody: {fileID: 8850861985521285455}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &7290979321812938690
@@ -134,7 +135,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1368338883152981120}
-  _rigidbody: {fileID: 6605186708168026333}
+  _rigidbody: {fileID: 8850861985521285455}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -175,12 +176,40 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1368338883152981120}
-  _rigidbody: {fileID: 6605186708168026333}
+  _rigidbody: {fileID: 8850861985521285455}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
+--- !u!114 &930521208090089797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8902909356019202030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 0}
 --- !u!1001 &2147873361987682456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235,11 +264,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5186934474098996367, guid: 12f664060cdacc849ab54825b030234e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5073497016853028385}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f664060cdacc849ab54825b030234e, type: 3}
 --- !u!4 &6500231505886393367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5186934474098996367, guid: 12f664060cdacc849ab54825b030234e, type: 3}
+  m_PrefabInstance: {fileID: 2147873361987682456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &8850861985521285455 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 7429342231255710167, guid: 12f664060cdacc849ab54825b030234e, type: 3}
   m_PrefabInstance: {fileID: 2147873361987682456}
   m_PrefabAsset: {fileID: 0}

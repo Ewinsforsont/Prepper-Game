@@ -129,7 +129,8 @@ Transform:
   m_LocalPosition: {x: -0, y: 0.00028991443, z: 0.00081641553}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8401185999739901613}
   m_Father: {fileID: 6616977914596506904}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6254641102162012618
@@ -699,7 +700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6616977914596506904}
-  - component: {fileID: 3811587808921913649}
+  - component: {fileID: 8683959826095959862}
   m_Layer: 0
   m_Name: mobil
   m_TagString: Untagged
@@ -717,7 +718,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.15339977, y: 1.2256, z: -5.0464}
-  m_LocalScale: {x: 28.414927, y: 28.414927, z: 28.707602}
+  m_LocalScale: {x: 19.205933, y: 19.205933, z: 19.403755}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1064303277494201438}
@@ -728,36 +729,36 @@ Transform:
   - {fileID: 4840494129726283388}
   - {fileID: 1393932945413726179}
   - {fileID: 3776182272705476929}
-  - {fileID: 8401185999739901613}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &3811587808921913649
-Rigidbody:
+--- !u!114 &8683959826095959862
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5809620388703987618}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 2422079262804545761}
 --- !u!1 &5916732668146546348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1248,7 @@ GameObject:
   - component: {fileID: 3266249596670989814}
   - component: {fileID: 2422079262804545761}
   - component: {fileID: 3491031262814316658}
+  - component: {fileID: 3747792663504691387}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -1262,12 +1264,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9129569229160646369}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.00028991443, z: -0.00081641553}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6616977914596506904}
+  m_Father: {fileID: 1393932945413726179}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3266249596670989814
 MonoBehaviour:
@@ -1288,7 +1290,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 6616977914596506904}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 3811587808921913649}
+  _rigidbody: {fileID: 3643145958238170755}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!114 &2422079262804545761
@@ -1308,7 +1310,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 3266249596670989814}
-  _rigidbody: {fileID: 3811587808921913649}
+  _rigidbody: {fileID: 3643145958238170755}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -1349,9 +1351,37 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 3266249596670989814}
-  _rigidbody: {fileID: 3811587808921913649}
+  _rigidbody: {fileID: 3643145958238170755}
   _grabSource: {fileID: 0}
   _useClosestPointAsGrabSource: 0
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
+--- !u!114 &3747792663504691387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9129569229160646369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 0}

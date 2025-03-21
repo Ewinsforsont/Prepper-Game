@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6046665806055510642}
   - component: {fileID: 871352764750953731}
   - component: {fileID: 1330122831572723861}
+  - component: {fileID: 7797076851851116924}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -120,6 +121,34 @@ MonoBehaviour:
   _releaseDistance: 0
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
+--- !u!114 &7797076851851116924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263660230173132378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 0}
 --- !u!1 &6391119572663005579
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +161,7 @@ GameObject:
   - component: {fileID: 9056763404023870400}
   - component: {fileID: 801947528683919038}
   - component: {fileID: 4236386047434889600}
+  - component: {fileID: 4548380046418942425}
   m_Layer: 0
   m_Name: Vattenflaska
   m_TagString: Untagged
@@ -149,7 +179,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.752, y: 0.879, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.67591, y: 0.67591, z: 0.67591}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4382079676277999671}
@@ -223,6 +253,34 @@ MonoBehaviour:
     type: 0
     ammount: 1
   item: 1
+--- !u!114 &4548380046418942425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6391119572663005579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b6057281464044a90cb98066a623c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasPickedUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  interactable: {fileID: 871352764750953731}
 --- !u!1001 &615333861306650105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -357,6 +415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8df588fa8474c0249b5f32e119ebb56e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03307d15d5523844bbf22372bb7717aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 8df588fa8474c0249b5f32e119ebb56e, type: 3}
       propertyPath: m_Name
       value: vattenflaskaGLAS
