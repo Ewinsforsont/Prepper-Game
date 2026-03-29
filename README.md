@@ -1,4 +1,4 @@
-# Prepper Game
+# Prepper Game (Om krisen kommer VR)
 
 A VR experience developed at **Blekinge Institute of Technology (BTH)** for the course *Utställningsteknik* (Exhibition Technology) in 2025.
 
